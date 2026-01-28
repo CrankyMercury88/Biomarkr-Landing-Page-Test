@@ -1,4 +1,4 @@
-console.log('Evergreen Health - Scroll Snap Version');
+console.log('Biomarkr - Scroll Snap Version');
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM loaded');
@@ -354,4 +354,5 @@ window.addEventListener('load', () => {
         updateHeroTextOpacity();
         window.addEventListener('scroll', updateHeroTextOpacity, { passive: true });
     }, 2000);
+
 });
